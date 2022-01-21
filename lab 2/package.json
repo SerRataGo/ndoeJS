@@ -1,0 +1,24 @@
+{
+  "name": "lap-2",
+  "version": "1.0.0",
+  "description": "simple node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "./node_modules/.bin/nodemon index.js",
+    "debug": "./node_modules/.bin/nodemon --inspect index.js",
+    "jitless": "node --jitless index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "commander": "^8.3.0",
+    "debug": "^4.3.3",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
